@@ -1,0 +1,24 @@
+# OpenFOAM generated time directories
+[1-9]*/
+
+# Generated mesh
+cases/*/constant/polyMesh/
+
+# Simulation logs
+log.*
+
+# ParaView marker files
+*.foam
+
+# Temporary files
+*.bak
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated numerical data
+results/data/
+
